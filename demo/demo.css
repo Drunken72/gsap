@@ -1,0 +1,33 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    height: 500vh;
+}
+
+.first,.third,.forth{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height:100vh; 
+}
+
+.second,.fifth{
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+}
+
+section div{
+    width: 50%;
+}
+
+.first-text,.third-text,.forth-text{
+    padding-left: 5vw;
+}
+
+.first-img,.second-img,.third-img,.forth-img,.fifth-img{
+    text-align: center;
+}
+
